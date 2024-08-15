@@ -1,0 +1,126 @@
+{
+  "mod_elements": [
+    {
+      "name": "Trickster",
+      "type": "keybind",
+      "sortid": 2,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "trickster",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/stevemaycry/network/TricksterMessage.java"
+        ]
+      },
+      "path": "~/Keybinds"
+    },
+    {
+      "name": "SwordMaster",
+      "type": "keybind",
+      "sortid": 1,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sword_master",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/stevemaycry/network/SwordMasterMessage.java"
+        ]
+      },
+      "path": "~/Keybinds"
+    },
+    {
+      "name": "RoyalGuard",
+      "type": "keybind",
+      "sortid": 3,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "royal_guard",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/stevemaycry/network/RoyalGuardMessage.java"
+        ]
+      },
+      "path": "~/Keybinds"
+    },
+    {
+      "name": "Gunslinger",
+      "type": "keybind",
+      "sortid": 4,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "gunslinger",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/stevemaycry/network/GunslingerMessage.java"
+        ]
+      },
+      "path": "~/Keybinds"
+    },
+    {
+      "name": "DevilSwordDante",
+      "type": "animateditem",
+      "sortid": 5,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "devil_sword_dante",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/stevemaycry/item/model/DevilSwordDanteItemModel.java",
+          "src/main/resources/assets/stevemaycry/models/item/devil_sword_dante.json",
+          "src/main/java/net/mcreator/stevemaycry/item/DevilSwordDanteItem.java",
+          "src/main/java/net/mcreator/stevemaycry/item/renderer/DevilSwordDanteItemRenderer.java"
+        ]
+      },
+      "path": "~/Items"
+    }
+  ],
+  "variable_elements": [],
+  "sound_elements": [],
+  "language_map": {
+    "en_us": {
+      "item.stevemaycry.devil_sword_dante": "Devil Sword Dante",
+      "key.stevemaycry.gunslinger": "Gunslinger",
+      "key.stevemaycry.royal_guard": "RoyalGuard",
+      "key.stevemaycry.sword_master": "SwordMaster",
+      "key.stevemaycry.trickster": "Trickster"
+    }
+  },
+  "foldersRoot": {
+    "name": "~",
+    "children": [
+      {
+        "name": "Keybinds",
+        "children": []
+      },
+      {
+        "name": "Items",
+        "children": []
+      }
+    ]
+  },
+  "workspaceSettings": {
+    "modid": "stevemaycry",
+    "modName": "SteveMayCry",
+    "version": "1.0.0",
+    "author": "efkrdnz, MCreator",
+    "websiteURL": "https://mcreator.net",
+    "license": "Academic Free License v3.0",
+    "disableForgeVersionCheck": true,
+    "serverSideOnly": false,
+    "requiredMods": [],
+    "dependencies": [],
+    "dependants": [],
+    "mcreatorDependencies": [
+      "world_edit",
+      "jade",
+      "geckolib",
+      "structure_gel_api",
+      "huge_structure_blocks"
+    ],
+    "currentGenerator": "forge-1.20.1",
+    "credits": "Created using mod maker MCreator - https://mcreator.net/about",
+    "modElementsPackage": "net.mcreator.stevemaycry",
+    "lockBaseModFiles": false
+  },
+  "mcreatorVersion": 202300452316
+}

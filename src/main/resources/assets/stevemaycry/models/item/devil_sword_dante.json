@@ -1,0 +1,6 @@
+{
+  "parent": "stevemaycry:displaysettings/dsd.item",
+  "textures": {
+    "layer0": "stevemaycry:item/dsdalt"
+  }
+}
