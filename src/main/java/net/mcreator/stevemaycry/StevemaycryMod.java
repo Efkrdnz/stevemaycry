@@ -31,6 +31,7 @@ import net.minecraft.network.FriendlyByteBuf;
 
 import net.mcreator.stevemaycry.init.StevemaycryModTabs;
 import net.mcreator.stevemaycry.init.StevemaycryModItems;
+import net.mcreator.stevemaycry.init.StevemaycryModEntities;
 
 import java.util.function.Supplier;
 import java.util.function.Function;
@@ -51,6 +52,7 @@ public class StevemaycryMod {
 		IEventBus bus = FMLJavaModLoadingContext.get().getModEventBus();
 
 		StevemaycryModItems.REGISTRY.register(bus);
+		StevemaycryModEntities.REGISTRY.register(bus);
 
 		StevemaycryModTabs.REGISTRY.register(bus);
 

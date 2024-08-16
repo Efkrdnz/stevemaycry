@@ -1,7 +1,13 @@
 {
   "item.stevemaycry.devil_sword_dante": "Devil Sword Dante",
   "key.stevemaycry.gunslinger": "Gunslinger",
+  "item.stevemaycry.dmc": "DMC",
+  "entity.stevemaycry.summon_swords_1": "Summon Swords 1",
+  "item.stevemaycry.summon_swords_2_spawn_egg": "Summon Swords 2 Spawn Egg",
+  "entity.stevemaycry.summon_swords_2": "Summon Swords 2",
   "key.stevemaycry.royal_guard": "RoyalGuard",
   "key.stevemaycry.sword_master": "SwordMaster",
-  "key.stevemaycry.trickster": "Trickster"
+  "key.stevemaycry.trickster": "Trickster",
+  "item_group.stevemaycry.dmc_creative_tab": "Steve May Cry",
+  "item.stevemaycry.summon_swords_1_spawn_egg": "Summon Swords 1 Spawn Egg"
 }

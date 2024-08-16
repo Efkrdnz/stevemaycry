@@ -12,13 +12,13 @@
     "rightArm": "",
     "perspective": "All Perspectives",
     "creativeTab": {
-      "value": "COMBAT"
+      "value": "CUSTOM:DMCCreativeTab"
     },
     "firstPersonArms": false,
     "stackSize": 1,
     "enchantability": 0,
     "useDuration": 0,
-    "toolType": 2.0,
+    "toolType": 1.0,
     "damageCount": 0,
     "recipeRemainder": {
       "value": ""
@@ -28,7 +28,7 @@
     "stayInGridWhenCrafting": false,
     "enableArmPose": false,
     "damageOnCrafting": false,
-    "enableMeleeDamage": false,
+    "enableMeleeDamage": true,
     "damageVsEntity": 12.0,
     "specialInformation": {
       "fixedValue": []
@@ -37,6 +37,9 @@
     "guiBoundTo": "<NONE>",
     "inventorySize": 9,
     "inventoryStackSize": 64,
+    "onRightClickedInAir": {
+      "name": "DevilSwordDanteRightclicked"
+    },
     "isFood": false,
     "nutritionalValue": 4,
     "saturation": 0.3,

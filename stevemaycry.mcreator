@@ -71,7 +71,213 @@
           "src/main/java/net/mcreator/stevemaycry/item/renderer/DevilSwordDanteItemRenderer.java"
         ]
       },
-      "path": "~/Items"
+      "path": "~/Items/Devil Sword Dante"
+    },
+    {
+      "name": "SummonSwords1",
+      "type": "animatedentity",
+      "sortid": 6,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "summon_swords_1",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/stevemaycry/entity/model/SummonSwords1Model.java",
+          "src/main/java/net/mcreator/stevemaycry/entity/SummonSwords1Entity.java",
+          "src/main/java/net/mcreator/stevemaycry/client/renderer/SummonSwords1Renderer.java",
+          "src/main/java/net/mcreator/stevemaycry/entity/layer/SummonSwords1Layer.java"
+        ]
+      },
+      "path": "~/Entities/SummonSwords/Uplift"
+    },
+    {
+      "name": "SummonSwords2",
+      "type": "animatedentity",
+      "sortid": 7,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "summon_swords_2",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/stevemaycry/client/renderer/SummonSwords2Renderer.java",
+          "src/main/java/net/mcreator/stevemaycry/entity/layer/SummonSwords2Layer.java",
+          "src/main/java/net/mcreator/stevemaycry/entity/SummonSwords2Entity.java",
+          "src/main/java/net/mcreator/stevemaycry/entity/model/SummonSwords2Model.java"
+        ]
+      },
+      "path": "~/Entities/SummonSwords/Dive"
+    },
+    {
+      "name": "SummonSwords2OnEntityTickUpdate",
+      "type": "procedure",
+      "sortid": 8,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "summon_swords_2_on_entity_tick_update",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/stevemaycry/procedures/SummonSwords2OnEntityTickUpdateProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Entities/SummonSwords/Dive"
+    },
+    {
+      "name": "SummonSwords1OnEntityTickUpdate",
+      "type": "procedure",
+      "sortid": 9,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "summon_swords_1_on_entity_tick_update",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/stevemaycry/procedures/SummonSwords1OnEntityTickUpdateProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Entities/SummonSwords/Uplift"
+    },
+    {
+      "name": "Uplift",
+      "type": "procedure",
+      "sortid": 10,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "uplift",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/stevemaycry/procedures/UpliftProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Items/Devil Sword Dante/Abilities"
+    },
+    {
+      "name": "Dive",
+      "type": "procedure",
+      "sortid": 11,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dive",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/stevemaycry/procedures/DiveProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Items/Devil Sword Dante/Abilities"
+    },
+    {
+      "name": "DMC",
+      "type": "item",
+      "sortid": 12,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dmc",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/stevemaycry/models/item/dmc.json",
+          "src/main/java/net/mcreator/stevemaycry/item/DMCItem.java"
+        ]
+      }
+    },
+    {
+      "name": "DMCCreativeTab",
+      "type": "tab",
+      "sortid": 13,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dmc_creative_tab",
+      "metadata": {
+        "files": []
+      }
+    },
+    {
+      "name": "DMCRightclicked",
+      "type": "procedure",
+      "sortid": 14,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dmc_rightclicked",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/stevemaycry/procedures/DMCRightclickedProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "DevilSwordDanteRightclicked",
+      "type": "procedure",
+      "sortid": 15,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "devil_sword_dante_rightclicked",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/stevemaycry/procedures/DevilSwordDanteRightclickedProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "itemstack",
+            "type": "itemstack"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Items/Devil Sword Dante"
     }
   ],
   "variable_elements": [],
@@ -80,9 +286,15 @@
     "en_us": {
       "item.stevemaycry.devil_sword_dante": "Devil Sword Dante",
       "key.stevemaycry.gunslinger": "Gunslinger",
+      "item.stevemaycry.dmc": "DMC",
+      "entity.stevemaycry.summon_swords_1": "Summon Swords 1",
+      "item.stevemaycry.summon_swords_2_spawn_egg": "Summon Swords 2 Spawn Egg",
+      "entity.stevemaycry.summon_swords_2": "Summon Swords 2",
       "key.stevemaycry.royal_guard": "RoyalGuard",
       "key.stevemaycry.sword_master": "SwordMaster",
-      "key.stevemaycry.trickster": "Trickster"
+      "key.stevemaycry.trickster": "Trickster",
+      "item_group.stevemaycry.dmc_creative_tab": "Steve May Cry",
+      "item.stevemaycry.summon_swords_1_spawn_egg": "Summon Swords 1 Spawn Egg"
     }
   },
   "foldersRoot": {
@@ -94,7 +306,35 @@
       },
       {
         "name": "Items",
-        "children": []
+        "children": [
+          {
+            "name": "Devil Sword Dante",
+            "children": [
+              {
+                "name": "Abilities",
+                "children": []
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Entities",
+        "children": [
+          {
+            "name": "SummonSwords",
+            "children": [
+              {
+                "name": "Uplift",
+                "children": []
+              },
+              {
+                "name": "Dive",
+                "children": []
+              }
+            ]
+          }
+        ]
       }
     ]
   },
